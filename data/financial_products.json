@@ -1,0 +1,51 @@
+{
+  "generated_on": "2026-02-03",
+  "currency": "BRL",
+  "products": [
+    {
+      "id": "convertible_note",
+      "name": "Seed Convertible Note",
+      "stage": "pre-seed/seed",
+      "min_amount_brl": 20000,
+      "max_amount_brl": 200000,
+      "summary": "Nota conversível que se converte na próxima rodada com desconto e cap",
+      "typical_terms": { "discount": "15-25%", "valuation_cap_brl": 3000000 }
+    },
+    {
+      "id": "venture_debt",
+      "name": "Venture Debt",
+      "stage": "seed/series A",
+      "min_amount_brl": 50000,
+      "max_amount_brl": 1000000,
+      "summary": "Empréstimo orientado para startups com juros e covenants leves",
+      "typical_terms": { "interest_annual": "6-12%", "term_months": 24 }
+    },
+    {
+      "id": "revenue_based",
+      "name": "Revenue-Based Financing",
+      "stage": "post-seed",
+      "min_amount_brl": 10000,
+      "max_amount_brl": 300000,
+      "summary": "Financiamento reembolsado com percentual da receita até um múltiplo do valor recebido",
+      "typical_terms": { "revenue_share_percent": "2-10%", "repayment_multiple": "1.5-3x" }
+    },
+    {
+      "id": "equity_crowdfunding",
+      "name": "Equity Crowdfunding",
+      "stage": "any",
+      "min_amount_brl": 5000,
+      "max_amount_brl": 2000000,
+      "summary": "Captação de equity pública via plataformas de crowdfunding",
+      "typical_terms": { "investor_type": "retail/ accredited", "equity_offered": "variável" }
+    },
+    {
+      "id": "innovation_grant",
+      "name": "Innovation Grant",
+      "stage": "early",
+      "min_amount_brl": 5000,
+      "max_amount_brl": 100000,
+      "summary": "Recursos não-dilutivos via editais para projetos de P&D ou impacto",
+      "typical_terms": { "dilutive": false, "selection": "por edital" }
+    }
+  ]
+}
